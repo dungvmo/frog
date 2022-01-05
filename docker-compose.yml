@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  frog_app:
+    build: .
+    image: frog-app-img
+    container_name: frog-app-container
+    restart: unless-stopped
+    ports:
+      - '9999:8000'

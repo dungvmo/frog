@@ -1,0 +1,3 @@
+#!/bin/bash
+
+python frog/manage.py runserver 0.0.0.0:8000
